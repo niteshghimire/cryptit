@@ -1,0 +1,33 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.wasm
+*.bin
+
+# Test binaries
+*_test
+
+# Go workspace
+# Local binaries
+bin/
+
+# Dependencies
+# Vendors are typically committed in Go modules, but if you have a specific reason
+# to ignore them (e.g., very large vendor directory), you can uncomment this.
+# vendor/
+
+# IDE and editor specific files
+.idea/
+.vscode/
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Build artifacts and temporary files
+*.o
+*.a
+*.bak
+*.swp
+*~
